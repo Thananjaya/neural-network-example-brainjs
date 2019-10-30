@@ -1,0 +1,14 @@
+{
+  "name": "neural-network-brainjs",
+  "version": "1.0.0",
+  "description": "Neural network examples using brainjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thananjaya Chakravarthy S",
+  "license": "ISC",
+  "dependencies": {
+    "brainjs": "^0.7.4"
+  }
+}
