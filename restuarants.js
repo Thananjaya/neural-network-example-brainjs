@@ -2,7 +2,7 @@
 // We can give string or booleans along with the bit 1 or 0
 // we can give bits 1 or 0 as per on - off strategy
 
-const brain = require('brainjs');
+const brain = require('brain.js');
 const network = new brain.NeuralNetwork({ hiddenLayers: [3] });
 
 const restaurants = {

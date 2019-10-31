@@ -1,4 +1,4 @@
-const brain = require('brainjs');
+const brain = require('brain.js');
 const network = new brain.NeuralNetwork({ hiddenLayers: [3] })
 
 const colors = [

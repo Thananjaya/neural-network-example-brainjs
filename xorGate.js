@@ -1,4 +1,4 @@
-const brain = require('brainjs');
+const brain = require('brain.js');
 const network = new brain.NeuralNetwork({ hiddenLayers: [3] });
 
 //tarining data in the form of array of hashes and also needed to have input - output
