@@ -37,4 +37,10 @@ const trainingData = [
 
 network.train(trainingData, {learningRate: 0.005, errorThresh: 0.02});
 
-console.log(scaledUp(network.run(trainingData[0])))
+console.log(scaledUp(network.run(trainingData[0]))) // for the single step
+
+console.log(network.forecast([
+    trainingData[0][0],
+    trainingData[0][1],
+    trainingData[0][2]
+], 3).map(scaledUp)) // for the multiple steps
